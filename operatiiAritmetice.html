@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operatii aritmetice</title>
+</head>
+<body>
+    <script>
+        var number_a = prompt("Please enter first number:");
+        var number_b = prompt("Please enter an operation:");
+        var number_c = prompt("Please enter second number:");
+      var result = operations(number_a, number_b, number_c)
+
+            function operations(a, b, c) {
+                if (b == "+") {
+                    var result = parseInt(number_a) + parseInt(number_c);
+alert("The result is: " + result);
+console.log(result)
+            }
+                if (b == "-") {
+                    var result = parseInt(number_a) + - + parseInt(number_c);
+alert("The result is: " + result);
+console.log(result)
+                }
+                if (b== "*") {
+                    var result = parseInt(number_a)  *  parseInt(number_c);
+alert("The result is: " + result);
+console.log(result)
+                }
+                if (b== "/") {
+                    var result = parseInt(number_a) / parseInt(number_c);
+alert("The result is: " + result);
+console.log(result)}
+                   else {
+alert("The operation you entered is not valid")
+console.log ("The operation you entered is not valid")
+
+                } }
+    </script>
+</body>
+</html>
